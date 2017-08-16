@@ -232,3 +232,9 @@ limitations under the License.
         height: 50px;
     }
 }
+
+//JC
+.mx_MessageComposer_voicecall,
+.mx_MessageComposer_videocall {
+  display: none;
+}

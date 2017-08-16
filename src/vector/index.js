@@ -266,6 +266,7 @@ async function loadApp() {
     let configJson;
     let configError;
     try {
+      console.log('we got here - about to load config file')
         try {
             configJson = await getConfig(`config.${document.domain}.json`);
             // 404s succeed with an empty json config, so check that there are keys
@@ -275,6 +276,8 @@ async function loadApp() {
         } catch (e) {
             configJson = await getConfig("config.json");
         }
+
+        //configJson = await getConfig("config.json");
     } catch (e) {
         configError = e;
     }

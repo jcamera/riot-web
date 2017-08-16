@@ -17,7 +17,8 @@ limitations under the License.
 .mx_RightPanel {
     position: relative;
 
-    display: flex;
+    //display: flex; //JC
+    display: none;
     flex-direction: column;
 }
 
