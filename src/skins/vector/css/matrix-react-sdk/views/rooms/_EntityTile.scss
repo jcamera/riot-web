@@ -49,7 +49,8 @@ limitations under the License.
 }
 
 .mx_EntityTile_name {
-    display: table-cell;
+    //display: table-cell;
+    display: none; //JC
     vertical-align: middle;
     overflow: hidden;
     font-size: 14px;
@@ -108,5 +109,3 @@ limitations under the License.
 {
     opacity: 0.25;
 }
-
-
